@@ -22,3 +22,9 @@ def five_cubes():
 
     plt.savefig("first_5_cubes.png")
     plt.close(fig)
+
+def main():
+    five_cubes()
+
+if __name__ == "__main__":
+    main()
